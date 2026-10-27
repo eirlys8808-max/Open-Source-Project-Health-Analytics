@@ -1,0 +1,32 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local data files
+data/raw/
+# Local SQLite database
+data/processed/repositories.db
+
+# Power BI temporary files
+*.tmp
+*.bak
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
